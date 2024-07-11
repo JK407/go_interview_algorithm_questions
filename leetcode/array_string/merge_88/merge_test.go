@@ -37,10 +37,10 @@ func TestMerge(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		t.Run("TestMerge", func(t *testing.T) {
+		t.Run("Testing Merge", func(t *testing.T) {
 			nums1Copy := make([]int, len(tt.nums1))
 			copy(nums1Copy, tt.nums1)
-			merge(nums1Copy, tt.m, tt.nums2, tt.n)
+			Merge(nums1Copy, tt.m, tt.nums2, tt.n)
 			assert.Equal(t, tt.want, nums1Copy)
 		})
 	}

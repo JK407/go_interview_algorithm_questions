@@ -1,13 +1,13 @@
 package merge_88
 
-// merge
+// Merge
 // @Description 合并两个有序数组,时间复杂度O(m+n),空间复杂度O(1)
 // @Author Oberl-Fitzgerald 2024-07-10 18:25:01
 // @Param  nums1 []int
 // @Param  m int
 // @Param  nums2 []int
 // @Param  n int
-func merge(nums1 []int, m int, nums2 []int, n int) {
+func Merge(nums1 []int, m int, nums2 []int, n int) {
 	// p1为指向 nums1 中最后一个元素
 	p1 := m - 1
 	//  p为指向合并后的数组的最后一个元素
